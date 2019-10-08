@@ -2,19 +2,19 @@ const PROJECTS = [];
 
 PROJECTS.push(new Project(
     "DuckLink!",
-    "This duck minigame web application was developed using agile methodology during a two week period on a team of four.",
-    "GrubWiz.jpg",
+    "This duck minigame is a web application developed using agile methodology during a two week period on a team of four.",
+    "Ducklink.jpg",
     "DuckLink!",
-    "https://github.com/vtchris/project1",
-    "https://vtchris.github.io/project1/"
+    "https://github.com/JustinConforti/DuckLink",
+    "https://ducklink.herokuapp.com/"
 ));
 PROJECTS.push(new Project(
-    "Rock Paper Scissors",
-    "Multi-player Rock Paper Scissors game built with JavaScript and Firebase Database.",
-    "rps.jpg",
-    "Rock Paper Scissors",
-    "https://github.com/vtchris/RPS-Multiplayer",
-    "https://vtchris.github.io/RPS-Multiplayer/"
+    "Giphy API",
+    "Giphy web application that utilizes Javascript API calls to allow users to search and play gifs by scrolling over",
+    "Giphy.jpg",
+    "Giphy API",
+    "https://github.com/JustinConforti/GIPHY-API",
+    "https://justinconforti.github.io/GIPHY-API/"
 ));
 PROJECTS.push(new Project(
     "News Scraper",
