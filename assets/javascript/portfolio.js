@@ -48,7 +48,7 @@ function display_about(){
     let img = document.createElement('img');
     img.classList.add('img-thumbnail');
     img.classList.add('mb-4');
-    img.setAttribute('src','assets/images/personal/chris.jpg');
+    img.setAttribute('src','assets/images/headshot.jpg');
     img.setAttribute('id','imgChris')
     col1.appendChild(img);
     row.appendChild(col1);
@@ -59,10 +59,10 @@ function display_about(){
 
     //Add paragraphs
     let p1 = document.createElement('p');
-    p1.innerText = "I'm Chris Ross - I enjoy web development and I'm currently in a Coding Bootcamp at the University of North Carolina Charlotte to improve my skills. I like to create sites with a clean, uncluttered, and intuitive look. I look forward to strengthening and improving my skill set!"
+    p1.innerText = "Hey there, my name is Justin Conforti - I have always had a passion for technology and this interest has led me to currently be in the job search for a possible web development position after graduating from a Full-Stack Coding Bootcamp at the University of North Carolina Charlotte. I enjoy creating websites and applications with a clean, user-friendly design and while also implementing a back-end to compliment it. The most exciting factor for me moving forward is the possibility for opportunities that will allow me to continue strengthening and adding new technologies to my current skill set!"
     col2.appendChild(p1)
     let p2 = document.createElement('p');
-    p2.innerText = "I am originally from Vermont and have lived and worked in several cities and states in New England. I recently moved to South Carolina near Charlotte, NC. I also enjoy traveling, and as a glutton for punishment, I attempt to play the violin."
+    p2.innerText = "I am originally from Florida and have recently moved to North Carolina where I continue my job search. I also enjoy traveling, music and playing video games."
     col2.appendChild(p2);
     row.appendChild(col2);
     
@@ -88,7 +88,7 @@ function display_about(){
     gitBtn.classList.add('btn-info');
     gitBtn.classList.add('text-light');   
     gitBtn.classList.add('btn-block');
-    gitBtn.setAttribute('href','https://github.com/vtchris');
+    gitBtn.setAttribute('href','https://github.com/JustinConforti');
     gitBtn.setAttribute('target','_blank');
     gitBtn.innerHTML = "<span class='fab fa-github mr-2'></span>Follow on Github!";
     cardBody.appendChild(gitBtn);
@@ -99,7 +99,7 @@ function display_about(){
     linkBtn.classList.add('btn-info');
     linkBtn.classList.add('text-light');
     linkBtn.classList.add('btn-block');   
-    linkBtn.setAttribute('href','https://www.linkedin.com/in/chrisross2357/');
+    linkBtn.setAttribute('href','https://www.linkedin.com/in/justin-conforti-946959164/');
     linkBtn.setAttribute('target','_blank');
     linkBtn.innerHTML = "<span class='fab fa-linkedin mr-2'></span>View LinkedIn profile!";
     cardBody.appendChild(linkBtn);
@@ -110,7 +110,7 @@ function display_about(){
     twitterBtn.classList.add('btn-info');
     twitterBtn.classList.add('text-light');
     twitterBtn.classList.add('btn-block');
-    twitterBtn.setAttribute('href','https://twitter.com/vtchris_2357');
+    twitterBtn.setAttribute('href','https://twitter.com/');
     twitterBtn.setAttribute('target','_blank');
     twitterBtn.innerHTML = "<span class='fab fa-twitter mr-2'></span>Follow on Twitter!";
     cardBody.appendChild(twitterBtn);
